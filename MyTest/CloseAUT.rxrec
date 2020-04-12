@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="f3b6f131-ff72-46ed-a347-516630b4dfb4"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="MyTest">
+	</codegen>
+	<variables>
+		<var
+		id="20e52401-74e7-419e-ba39-726169b90394"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="fa44a3f7-19e2-41a5-a9d3-4162702d37c5">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="d3aac3bb-60fd-43f6-bb7c-0a35cd31ece1"
+	name="MyTestRepository"
+	relativepath="MyTestRepository.rxrep">
+		<codegen
+		classname="MyTestRepository"
+		namespace="MyTest">
+		</codegen>
+		<rootfolder
+		id="45beb29e-6792-4f06-8eb4-5ba678991e50"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

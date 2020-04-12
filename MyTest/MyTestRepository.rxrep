@@ -1,0 +1,125 @@
+﻿<repository
+id="d3aac3bb-60fd-43f6-bb7c-0a35cd31ece1"
+name="MyTestRepository">
+	<codegen
+	classname="MyTestRepository"
+	namespace="MyTest">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="45beb29e-6792-4f06-8eb4-5ba678991e50"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="227f0f87-b23a-4c51-a5ae-b07b5efaf5df"
+		isrooted="True"
+		name="Form1"
+		refpath="/form[@controlname='Form1']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="f992c952-cd9c-4e90-85be-ea4acde89ec3"
+			name="Text"
+			refimgid="eb14e4db-2558-4e17-b9e5-152e5fbabe6e"
+			refpath="/form[@controlname='Form1']/text[@controlname='tbCheckNum']/text[@accessiblerole='Text']"
+			searchtimeout="30000ms">
+				/form[@controlname='Form1']/?/?/text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="ab420390-898b-41a6-bc66-439cefd112a1"
+			name="Button1"
+			refimgid="be32abd0-d3d4-4dba-b5d8-23e473be1234"
+			refpath="/form[@controlname='Form1']/button[@controlname='button1']"
+			searchtimeout="30000ms">
+				/form[@controlname='Form1']/button[@controlname='button1']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="ca30b168-1197-49af-9a81-3064e43a8c6c"
+			name="Label2"
+			refimgid="92d55ff7-4db6-45b5-8cb5-d1616f3004eb"
+			refpath="/form[@controlname='Form1']/text[@controlname='label2']"
+			searchtimeout="30000ms">
+				/form[@controlname='Form1']/text[@controlname='label2']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="eef2f472-8508-4ff2-b2d0-8e320ab19380"
+			name="TbCheckNum"
+			refimgid="d3b9c3f7-fb9e-4bd5-adf1-e859bc377801"
+			refpath="/form[@controlname='Form1']/text[@controlname='tbCheckNum']"
+			searchtimeout="30000ms">
+				/form[@controlname='Form1']/text[@controlname='tbCheckNum']
+			</item>
+			<basepath>
+				/form[@controlname='Form1']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH4SURBVDhPrdFdSJNhGMbxR1BzhTJzapnsJGgU
+RnQQEXYQhGkEgRIUihSzrKyEMM0ME00ENRY6WjPLmOasObKkHDTKmoSBERUZbNWsVdtys/nRKjr5
+9+F74AvBwLrggufk/l0Hj/gveTDoYD6VzmcB6SnLsDGZbxOdfPW2EnbXMDNawvTjPCaHNnKlOj4y
+MGRQEfY08cVVzsyzQqYeZTN5by2fB9R0VC6KDNxvTZqzmknIrmGiP4VxaxzGsoVyYGxNNM7VMTzP
+iGVkVRyOlQrsusVMDWcT+r1qUxPoS+DTtWh83QJ9qUIOTN/sJWQ2ETDq8Taexro8noEmJaE7GoL9
+yQR6Ffh7ovjYJfBcFuhK4uRA8KIBf3MDnqpy3hwoQq9O5EaDkuCv1XFLDD6z4INJ8K5D4G4XNO5f
+IAfenzqB+3AxzvwdvMjZTPWSFCy1CfivRuGVVscuCV63CZxGQX1RrBxwFe5idFsWTzPXMZKh4aAq
+7a9/P7fS+SxQkZrKEdVSipPS2J24jAJlOlV9b+l08Kftd+GsDequw7Fu2HrcJgekpyxlZhdGO5y5
+DTVWONoF+9qgoOUH67U9kYG9hiectECpCbTnIV/3ndz6ADmVr1iReyEykFc3yJ5zsLM5zPZaH1sq
+XrLp0EM2aG+RntUiB+ZT6fxfIsRPbYnQgbXhGFYAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="86a9b25d-0c82-4cd7-bc34-bcb65db809ec"
+		isrooted="True"
+		name="PrimeServiceWinForm"
+		refimgid="c2afdd98-e55b-4510-844f-5a09f24a8968"
+		refpath="/form[@title='']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="1579f453-5ef0-4279-83aa-99c8b1ea8264"
+			name="Text65535"
+			refimgid="54953476-f965-43fb-9b3d-93e2fe59408f"
+			refpath="/form[@title='']/text[@controlid='65535']"
+			searchtimeout="30000ms">
+				/form[@title='']/text[@controlid='65535']
+			</item>
+			<basepath>
+				/form[@title='']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAlFJREFUOE+lk+tLk2EYh/eX9CGipCIyCKLo4HHlzA8SVoR9KogkkKDM
+CKRCCwQtKUjtIJSdrKggqQ+CFZmHHGlzzrU552HqNnWbO7zHXT3bBLXQoG74fXvv63c9z8tj+O9p
+aDFz55WDmuYBqpp+cLnRzJnqTk5UdlNc8YWic60Ulr6koOTJshw8/RjjkXIMdc9tNLVrNLZp3GqV
+qX4dofJZkIpHs5Q3+Tl710fJ7UlO1o5zvNrN0SoXh644yS8zsyZtB4baZjN1bwLcfBvm4oMpTt1w
+U3zdybFrDg5ftVNYYaPg0iCmcisHLgxgLLOQe95CRmk369KNGGoaXuAPxAhHNeZFQhGVYFghIDIb
+SsUbUPDMyLi9Mg6PhHVMosvqYePW7QJQ38JqE4+DokJEijMX0ZkKaoz6VSwuLxs2b8Nw/+n7hU//
+HE0HSYkzH9OZmdeYnNNw+xR+Tir0DP0FoItmWSwnm8M606J5TDQ7pxSs4zKd1tUACW1NLMtxglEd
+X0hjYlbD5VWwTSj0j8h8tgjAphUAi+pxZsRySl3FLtQtozK9wxLtfSsAkupqQl1PqQdS6o6kusJ3
+l0yXQ6LNnACkLwckb1yDqDh3YKn6dEq9zy3R45TosMX40PsbQOyiLqiHhLo/eesqIwl1z6L6V3uM
+T9Yo73q8rE8A7i0xEOVI4p+HYggATMyByxdnyKPRP6rxbVilw67wcVBOAtambRFvof4hufvzyTGa
+yBbJEskUycg1sS/HxN7sPPaI7M7KY1dmKjszUsnJL2LhTf7rGAy/AP7X5rYY5FLEAAAAAElFTkSu
+QmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
